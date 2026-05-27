@@ -62,10 +62,6 @@
 
 ### 方式一：直接运行 EXE
 
-```bash
-# 解压并直接运行
-dist\MiscTool.exe
-```
 
 ### 方式二：从源码运行
 
@@ -89,11 +85,7 @@ pyinstaller --onefile --windowed --name "MiscTool" --icon="logo.ico" main.py
 - **qrcode** — 二维码生成
 - **pyzbar** — 二维码解码（Windows 需额外安装 [zbar](https://github.com/mchehab/zbar/releases)）
 
-## 运行测试
 
-```bash
-python tests/test_modules.py
-```
 
 22 项单元测试覆盖编解码 roundtrip、古典密码、哈希、智能解码等核心逻辑。
 
