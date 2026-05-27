@@ -60,9 +60,6 @@ CTFtools/
     └── pages/              # 各功能页
 ```
 
-## 参考思路
-
-本工具参考了 CyberChef、CTF-Knife、CTFCrackTools、SecToolKit 等项目的功能划分，将 Misc 高频操作整合到本地桌面端，便于离线比赛使用。
 
 ## 扩展
 
